@@ -22,7 +22,7 @@ defineOptions({
   name: 'Index'
 })
 
-const isValidatePass = ref(true)
+const isValidatePass = ref(false)
 const verifyCode = ref('')
 
 const handleValidateInput = (event: Event) => {
